@@ -1,18 +1,4 @@
-# MAD-TIMEGAN
-
-Cleaned and generalized TimeGAN project for multivariate time-series generation and augmentation.
-
-## What Changed
-
-- Removed one-off launcher scripts from the project root.
-- Kept the general training entrypoint: `train.py`.
-- Kept standalone visualization via `visualize.py`.
-- Kept reusable experiment scripts under `experiments/`.
-- Fixed real/fake scale mismatches in training evaluation and saved visualizations.
-- Fixed device fallback so CUDA requests degrade to CPU cleanly.
-- Fixed variable-length noise padding in `random_generator`.
-- Removed unsupported dataset options and added generic `custom_csv` / `custom_mat` loaders.
-- Added `requirements.txt` and `.gitignore`.
+project will be coming soon
 
 ## Project Layout
 
